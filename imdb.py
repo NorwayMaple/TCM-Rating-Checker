@@ -57,16 +57,3 @@ for movie, time in selected_movies.items():
     except KeyError as err:
         print('Movie not found: ' + str(err))
     print()
-        
-    
-        
-        
-    #        s = line.split()[3:]  #This is split into two lines because the movie's title may have spaces
-     #       if " ".join(s[:-2]) == movie or " ".join(s[:-1]) == movie:
-      #          rating_distribution = line.split()[0] #See rating documentation for format
-       #         for i, char in enumerate(rating_distribution):
-        #            if char == '.': continue
-         #           if char == '*': mean_rating += i
-          #          mean_rating += i * (float(char) / 10 + 0.05)
-           #         print(mean_rating)
-            #    break
